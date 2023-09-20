@@ -11,4 +11,4 @@ def find_value_pai_2():
     return
 
 
-find_value_pai_1(10000000)
+find_value_pai_1(1000000)
