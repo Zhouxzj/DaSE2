@@ -18,3 +18,4 @@ def Monte_Carlo_Method(a, b):
 
 final = Monte_Carlo_Method(2, 3)
 print("%.6f" % final)
+
