@@ -38,5 +38,5 @@ while [] in taken:
 l = len(taken)
 for i in taken[l-7:-1]:  # 打印最终步骤
     print(lit[i + 1], end='\t')
-print("羊")
+print(" 羊")
 
