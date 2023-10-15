@@ -35,6 +35,8 @@ for i in range(len(taken) - 1):  # 去除无效步骤，因为可能会出现前
         taken[i] = taken[i + 1] = []
 while [] in taken:
     taken.remove([])
-for i in taken:  # 打印最终步骤
+l = len(taken)
+for i in taken[l-7:-1]:  # 打印最终步骤
     print(lit[i + 1], end='\t')
+print("羊")
 
